@@ -12,12 +12,14 @@ namespace API.Data.Migrations
         {
             migrationBuilder.CreateTable(
                 name: "Users",
+
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
                     DisplayName = table.Column<string>(type: "TEXT", nullable: false),
                     Email = table.Column<string>(type: "TEXT", nullable: false)
                 },
+
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
