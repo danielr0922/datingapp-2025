@@ -485,3 +485,4 @@ $RECYCLE.BIN/
 client/node_modules/cacache/node_modules/tar/dist/commonjs/read-entry.d.ts.map
 client/node_modules/cacache/node_modules/tar/dist/commonjs/read-entry.js
 client/node_modules/cacache/node_modules/tar/dist/commonjs/read-entry.js.map
+appsettings.json
